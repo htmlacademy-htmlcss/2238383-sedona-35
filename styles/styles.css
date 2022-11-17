@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/ptsans-400.woff2") format("woff2");
+  color: #333333;
   font-display: swap;
 }
 
@@ -11,5 +12,109 @@
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/ptsans-700.woff2") format("woff2");
+  color: #333333;
   font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #ffffff;
+}
+
+nav {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.main-background {
+  width: 1200px;
+  height: 485px;
+  background-image: url("../images/index-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1200px, 485px;
+
+}
+
+.welcome {
+  width: 1200px;
+  height: 485px;
+  background-image: url("../images/welcome.png");
+  background-position: center 51px;
+  background-repeat: no-repeat;
+}
+
+.divider {
+  width: 1200px;
+  height: 485px;
+  background-image: url("../images/divider.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.main-advantages-title, .main-booking-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.main-welcome-advantages, .main-booking-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.blue {
+  color: #ffffff;
+}
+
+.main-advantages-head, .advantages-cards-head, .main-premises-title  {
+  width: 400px;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+
+.main-advantages-text {
+  width: 400px;
+}
+
+.true-town {
+  width: 1200px;
+  height: 384px;
+  background-color: #82B3D3;
+  background-image: url("../images/advantages-photo-1.jpg");
+  background-size: 800px 384px;
+  background-position: 400px;
+  background-repeat: no-repeat;
+}
+
+.devil-bridge {
+  width: 1200px;
+  height: 384px;
+  background-color: #82B3D3;
+  background-image: url("../images/advantages-photo-2.jpg");
+  background-size: 800px 384px;
+  background-position: 0px;
+  background-repeat: no-repeat;
+}
+
+.subscribe {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 26px;
+  width: 1200px;
+  height: 414.86px;
+  background-image: url("../images/subscribe-background-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1200px, 414.86px;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
 }
