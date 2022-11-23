@@ -17,26 +17,21 @@
 }
 
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 21px;
   background-color: #ffffff;
 }
 
-h1 {
+.catalog-title {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
 }
 
-nav {
+.navigation {
   font-size: 20px;
   line-height: 24px;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
 }
 
 .catalog-filter {
@@ -44,6 +39,7 @@ a {
   background-image: url("../images/catalog-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #43676f;
 }
 
 .catalog-breadcrumbs {
